@@ -26,13 +26,13 @@ au Filetype supercollider let b:match_words = '(:),[:],{:}'
 
 " key bindings
 
-au Filetype supercollider nnoremap <buffer> <F5> :call SClang_block()<CR>
-au Filetype supercollider inoremap <buffer> <F5> :call SClang_block()<CR>a
-au Filetype supercollider vnoremap <buffer> <F5> :call SClang_send()<CR>
+au Filetype supercollider nnoremap <buffer> <C-e> :call SClang_block()<CR>
+au Filetype supercollider inoremap <buffer> <C-e> :call SClang_block()<CR>a
+au Filetype supercollider vnoremap <buffer> <C-e> :call SClang_send()<CR>
 
-au Filetype supercollider vnoremap <buffer> <F6> :call SClang_line()<CR>
-au Filetype supercollider nnoremap <buffer> <F6> :call SClang_line()<CR>
-au Filetype supercollider inoremap <buffer> <F6> :call SClang_line()<CR>a
+au Filetype supercollider vnoremap <buffer> <C-i> :call SClang_line()<CR>
+au Filetype supercollider nnoremap <buffer> <C-i> :call SClang_line()<CR>
+au Filetype supercollider inoremap <buffer> <C-i> :call SClang_line()<CR>a
 
 au Filetype supercollider nnoremap <buffer> <F12> :call SClangHardstop()<CR>
 
