@@ -25,7 +25,7 @@ syn clear
 syn match	scAoperator	"{"
 syn match	scAoperator	"}"
 
-"syn	match	scVariable	"\%(var.*\)\@<=\(\l\w*\)" "lowercase followed by wordchar
+syn	match	scVariable	"\%(var.*\)\@<=\(\l\w*\)" "lowercase followed by wordchar
 syn	match	scGlobvariable	"\~\l\w*" "~ followed by lowercase followed by wordchar
 syn	match scVar "\s*var\s"
 syn	match scVar "\s*classvar\s"
